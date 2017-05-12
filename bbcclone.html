@@ -1,0 +1,455 @@
+<html>
+	<head><title>Technology-BBC NEWS</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	
+		<style type="text/css">
+			body{
+				margin:0;
+				padding:0;
+				font-family:Helvetica,Arial,sans-serif;
+			}
+			#top
+			{
+				width:1000px;
+				margin:0 auto;
+				height:40px;
+				
+			}
+			#logo{
+				margin:8px 8px 8px 14px;
+				width:85px;
+				float:left;
+			}
+			#signin
+			{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:155px;
+			}
+			#news
+			{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:55px;
+			}
+			#sports{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:60px;
+			}
+			#weather
+			{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:70px;
+			}
+			#more
+			{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:130px;
+			}
+			#shop{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:60px;
+			}
+			#earth{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:60px;
+			}
+			#travel{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			width:60px;
+			}
+			#signimg{
+				margin:5px 6px 5px 7px;
+				float:left;
+				
+			}
+			#signintext{
+				font-weight:bold;
+				font-size:15px;
+				position:relative;
+				top:10px;
+				left:6px;
+			}
+			.headtext
+			{
+				<!--font-weight:bold;-->
+				font-size:14px;
+				position:relative;
+				top:10px;
+				left:5px;
+			}
+			#search
+			{
+			float:left;
+			border-left:1px #cccccc solid;
+			height:100%;
+			
+			}
+			#searchbox
+			{
+				position:relative;
+				top:8px;
+				left:10px;
+				float:left;
+				height:23px;
+				border:none;
+				background-color:#e4e4e4;
+			}
+			#seachimg
+			{
+				position:relative;
+				float:left;
+				left:10px;
+				top:8px;
+			}
+			#outerlred
+			{
+				width:100%;
+				height:58px;
+				background-color:#bb1919;
+				
+			}
+			#outerred
+			{
+				width:100%;
+				height:35px;
+				background-color:#a91717;
+				
+			}
+			#innerlred
+			{
+				width:1000px;
+				margin:0 auto;
+				
+		
+			}
+			.clear
+			{
+				clear:both;
+			}
+			#Newshead{
+				font-size:43px;
+				font-family:arial;
+				color:white;
+				padding:0px;
+				margin:0px;
+				padding-top:4px;
+				font-weight:normal;
+				
+			}
+			#innerred
+			{
+				margin:0 auto;
+				width:1000px;
+			}
+			
+			#innerred a{
+				color:white;
+				text-decoration:none;
+				padding:0px 9px;
+				border-right:1px solid #bb1919;
+				top:8px;
+				position:relative;
+				font-size:14px;
+				}
+			#innerred a:hover
+			{
+				text-decoration:underline;
+			}
+			#content
+			{
+				margin:0 auto;
+				width:1000px;
+			}
+			#tech
+			{
+				font-family:Helvetica;
+				font-weight:normal;
+				font-size:20px;
+			}
+			
+			#leftheading{
+				position:relative;
+				width:660px;
+			}
+			#leftmain{
+				position:relative;
+				width:660px;
+				border-bottom:1px solid #cccccc;
+				height:190px;
+			}
+			#devleeimg
+			{
+				position:relative;
+				float:left;
+				top:-7px;
+			}
+			#devleetxt2
+			{
+				position:relative;
+				float:left;
+				top:15px;
+			}
+			#devleetxt
+			{
+				position:relative;
+				float:left;
+				top:15px;
+				color:#bb1919;
+			}
+			#time
+			{
+				position:relative;
+				float:left;
+				top:70px;
+				left:-320px;
+			}
+			#clocktxt
+			{
+				font-size:13px;
+				position:relative;
+				top:-4px;
+			}
+			#clock
+			{
+				height:18px;
+			}
+			#ttext
+			{
+				color:#bb1919;
+				font-size:13px;
+				border-left:1px solid #cccccc;
+				position:relative;
+				top:72px;
+				left:-312px;
+				padding-left:4px;
+			}
+			#connect
+			{
+				position:relative;
+				float:right;
+				top:55px;
+				right:10px;
+			}
+			.social
+			{
+				position:relative;
+				float:left;
+				height:100%;
+				margin-left:15px;
+				
+			}
+			#sharetxt
+			{
+				color:green;
+				position:relative;
+				floatleft;
+				top:-4px;
+				left:3px;	
+			}
+			
+			#leftsub
+			{
+				position:relative;
+				width:660px;
+			}
+			.leftstry
+			{
+				position:relative;
+				float:left;
+				width:230px;
+				border-right:1px solid #cccccc;
+			}
+			
+			.leftstry h2{
+				font-size:20px;
+				font-family:'PT Sans', sans-serif;
+				font-weight:bold;
+				color:#686868;
+			}
+			.leftstry h3{
+				font-size:15px;
+				font-family:helvetica;
+				font-weight:normal;
+			}
+			.rclk{
+				position:relative;
+				float:left;
+			}
+			.rtm
+			{
+				font-size:12px;
+				position:relative;
+				float:left;
+				top:-10px;
+				left:3px;
+				border-right:1px solid #cccccc;
+				padding-right:5px;
+			}
+			.rtm2
+			{
+				position:relative;
+				float:left;
+				color:#ae305b;
+				left:8px;
+				top:-11px;
+				font-size:13px;
+			}
+			.rimg{
+				position:relative;
+				top:10px;
+			}
+			#stry2
+			{
+				position:relative;
+				top:-100px;
+				left:8px;	
+			}
+			.right
+			{
+				position:relative;
+				float:right;
+				width:340px;
+				left:50px;
+				border-left:1px solid #cccccc;
+			}
+			.right h2
+			{
+				font-weight:normal;
+				padding-left:13px;
+			}
+			.vidtxt
+			{
+				position:relative;
+				float:right;
+				font-weight:bold;
+				top:0px;
+				left:-30px;
+			}
+			.vidclk
+			{
+				position:relative;
+				left:15px;
+				border-right:1px solid #cccccc;
+			}
+			.vidtech
+			{
+				position:relative;
+				color:#a61b1b;
+				font-size:13px;
+				left:160px;
+				top:-17px;
+			}
+			#sprntrbt
+			{
+				position:relative;
+				left:-65px;
+			}
+			#boxv
+			{
+				position:relative;
+				left:-15px;
+			}
+			
+			
+		</style>
+	
+	</head>
+	<body>
+		<div id="top">
+			<img src="http://static.bbci.co.uk/frameworks/barlesque/3.21.13/orb/4/img/bbc-blocks-dark.png" id="logo">
+			<div id="signin"><img src="signin.png" id="signimg"><span id="signintext">Sign in</span></div>
+			<div id="news"><span class="headtext">News</span></div>
+			<div id="sports"><span class="headtext">Sports</span></div>
+			<div id="weather"><span class="headtext">Weather</span></div>
+			<div id="shop"><span class="headtext">Shop</span></div>
+			<div id="earth"><span class="headtext">Earth</span></div>
+			<div id="travel"><span class="headtext">Travel</span></div>
+			<div id="more"><span class="headtext">More</span></div>
+			<div id="search"><input type="search" id="searchbox" placeholder="Search"><input type="image" src="search.png" id="seachimg"></div>
+			
+		</div>
+		<div class="clear"></div>
+		<div id="outerlred"><div id="innerlred"><h1 id="Newshead">NEWS</h1></div></div>
+		<div id="outerred"><div id="innerred">
+			<a href="">Home</a>
+			<a href="">Video</a>
+			<a href="">World</a>
+			<a href="">Asia</a>
+			<a href="">UK</a>
+			<a href="">Business</a>
+			<a href="">Tech</a>
+			<a href="">Science</a>
+			<a href="">Magazine</a>
+			<a href="">Enterainment & Arts</a>
+			<a href="">Health</a>
+			<a href="">More</a> 
+		</div></div>
+		<div class="clear"></div>
+		
+		<div id="content">	
+			<div id="leftheading">
+				<a href=""><h2 id="tech">Technology</h2></a>
+			</div>
+			
+			<div class="right">
+			<h2>Watch/Listen</h2>
+			<div class="video" id="vdo1"><img src="vidimg1.png"><span class="vidtxt">Virtual reality comes to<br> the pub</span><img src="clock.png" class="vidclk"><span class="vidtech">Technology</span></div><br>
+			<div class="video" id="vdo2"><img src="vidimg2.png"><span class="vidtxt">Lost at the airport?This<br> robot can help</span><img src="clock.png" class="vidclk"><span class="vidtech">Technology</span></div><br>
+			<div class="video" id="vdo3"><img src="vidimg3.png"><span class="vidtxt" id="sprntrbt">The self-balancing,<br> sprinting robot</span><img src="clock.png" class="vidclk"><span class="vidtech">Technology</span></div><br>
+			<div class="video" id="vdo4"><img src="vidimg4.png"><span class="vidtxt" id="boxv">Could this box make you,<br> a better driver?</span><img src="clock.png" class="vidclk"><span class="vidtech">Technology</span></div><br>
+			<div class="video" id="vdo5"><img src="vidimg5.png"><span class="vidtxt">World's smallest 'cars' <br> compete in a race</span><img src="clock.png" class="vidclk"><span class="vidtech">Technology</span></div><br>
+			</div>
+			
+			<div id="leftmain">
+				<h1>Snap's judgement:what to look out for</h1>
+				<img src="devlee.png" id="devleeimg">
+				<span id="devleetxt">Deve Lee</span><br><span id="devleetxt2">North America technology reporter</span>
+				<div id="time"><img src="clock.png" id="clock"><span id="clocktxt">10 May 2017</span></div>
+				<div id="technology"><span id="ttext">Technology</span></div>
+				<div id="connect">
+					 <div id="facebook" class="social"><a href=""><img src="facebook.png"></a></div> 
+					 <div id="twitter" class="social"><a href=""><img src="twitter.png"></a></div>
+					 <div id="messenger" class="social"><a href=""><img src="messenger.png"></a></div>
+					 <div id="mail" class="social"><a href=""><img src="mail.png"></a></div>
+					 <div id="share" class="social"><a href=""><img src="share.png"><span id="sharetxt">Share</span></a></div>
+				</div>
+			</div>
+			<div id="leftsub">
+				<div class="leftstry" id="stry1">
+				<img src="pokemon.png" class="rimg">
+				<h2>Russian Pokemon Go player found guilty</h2>
+				<h3>A court says he insuled religious believers ouver a video of himself playing the game in a church.</h3>
+				<img src="clock.png" class="rclk">
+				<p class="rtm">4 hours ago</p><p class="rtm2">Europe</p>
+				</div>
+				<div class="leftstry" id="stry2">
+				<img src="hack.png" class="rimg">
+				<h2>Hackers given $9m insider trading penalty</h2>
+				<h3>The men stole confidential information that helpeed them profit on the stock market,prosecuters say.</h3>
+				<img src="clock.png" class="rclk">
+				<p class="rtm">4 hours ago</p><p class="rtm2">Technology</p>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		
+	
+	</body>
+</html>
